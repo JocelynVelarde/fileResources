@@ -126,11 +126,13 @@
                 <button type="submit" class="btn btn-primary btn-block mb-4">
                   Sign in
                 </button>
+                
+              
   
                 <!-- Register buttons -->
                 <div class="text-center">
                   <p>or Sign in as a guest:</p>
-                  <button type="submit" class="btn btn-primary btn-block mb-4">
+                  <button id="guestButton" type="submit" class="btn btn-primary btn-block mb-4">
                     Sign in as a Guest
                   </button>
                 </div>
@@ -141,6 +143,20 @@
       </div>
     </div>
   </section>
+  <script>
+    // Obtener referencia al botón y al contenedor del mensaje
+    const guestButton = document.getElementById('guestButton');
+    
+
+    // Agregar un controlador de eventos al botón
+    guestButton.addEventListener('click', function (event) {
+      
+alert("hola");
+        // Ocultar el botón y mostrar el contenedor del mensaje
+    
+    });
+</script>
+
     <!-- End your project here-->
 
     <!-- MDB -->
